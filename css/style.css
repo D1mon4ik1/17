@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(to right bottom, green, purple);
+    text-align: center;
+    height: 96vh;
+}
+#time{
+    font-size: 4vh;
+    font-weight: 600;
+    color: blue;
+    text-shadow: 1px 1px 5px black;
+    margin: 5vh;
+}
+#games{
+    margin-top: 20vh;
+    font-size: 3vh;
+    padding: 1vh 2vh;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: yellow;
+    box-shadow: 1px 1px 5px 5px lime;
+    font-family: "Times New Roman", serif;
+    font-weight: 600;
+    transition: 500ms;
+}
+#games:hover{
+    background-color: red;
+    box-shadow: 1px 1px 5px 10px lime;
+}
